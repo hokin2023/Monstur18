@@ -52,17 +52,17 @@ module.export = {
       // Update a Thought
       async updateThought(req, res) {
         try {
-          const Thought = await Thought.findOneAndUpdate(
+          const thought = await Thought.findOneAndUpdate(
             { _id: req.params.thoughtId },
             { $set: req.body },
             { runValidators: true, new: true }
           );
     
-          if (!Thought) {
+          if (!thought) {
             res.status(404).json({ message: 'No Thought with this id!' });
           }
     
-          res.json(Thought);
+          res.json(thought);
         } catch (err) {
           res.status(500).json(err);
         }

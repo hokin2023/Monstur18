@@ -6,7 +6,7 @@ This is an API for a social network web application where users can share their 
 
 ## Link
 
-https://drive.google.com/file/d/1W9K6HjCiuvZGJdXNJb_AXJ0e4TZ2QXtk/view
+(https://www.youtube.com/watch?v=3PpHzKwLgi0)
 
 ## Usage
 
